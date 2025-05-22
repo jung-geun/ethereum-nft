@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */ /* 전체 화면 높이 제거 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */ /* 중앙 정렬 제거 */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 20px; /* 하단 여백 추가 */
+}
+
+main {
+  padding: 20px;
+}
+
+/* 기존 App-logo, App-link, keyframes 스타일은 사용하지 않으므로 제거 */
